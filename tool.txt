@@ -1,0 +1,6 @@
+
+//下载文件 //从配置文件向此处拷贝dd一个100M文件
+dd if=/dev/zero of=./hello.dat bs=100M count=1
+
+//资源路径 /upload
+//实际路径 ./www/upload
