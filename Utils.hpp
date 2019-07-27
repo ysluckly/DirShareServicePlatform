@@ -471,7 +471,7 @@ public:
     //正文数据可能比较大，所以采取分块传输
     std::string rsp_body;
     rsp_body = "<html><head>";
-    rsp_body += "<title>Welcome to my zone！" + info._path_info + "</title>";
+    rsp_body += "<title> E享平台" + info._path_info + "</title>";
     rsp_body += "<meta charset='UTF-8'>";
   
     rsp_body += "</head><body>";
